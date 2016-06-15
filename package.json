@@ -1,0 +1,111 @@
+{
+  "name": "app-glance-virtual-pet",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-ui-dialog-window": "^0.2.0"
+  },
+  "pebble": {
+    "displayName": "Virtual Pet",
+    "uuid": "669328e7-40f4-4f9c-9e0c-1f6f4dc6f5c6",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "file": "images/frog.png",
+          "name": "FROG",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite"
+          ],
+          "type": "bitmap"
+        },
+        {
+          "file": "images/egg.png",
+          "name": "EGG",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite"
+          ],
+          "type": "bitmap"
+        },
+        {
+          "file": "images/frog_icon_happy.png",
+          "name": "ICON_FROG_HAPPY",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite"
+          ],
+          "type": "bitmap"
+        },
+        {
+          "file": "images/frog_icon_hungry.png",
+          "name": "ICON_FROG_HUNGRY",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite"
+          ],
+          "type": "bitmap"
+        },
+        {
+          "file": "images/frog_icon_very_hungry.png",
+          "name": "ICON_FROG_VERY_HUNGRY",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite"
+          ],
+          "type": "bitmap"
+        },
+        {
+          "file": "images/frog_icon_missing.png",
+          "name": "ICON_FROG_MISSING",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite"
+          ],
+          "type": "bitmap"
+        },
+        {
+          "file": "images/egg_icon.png",
+          "name": "ICON_EGG",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite"
+          ],
+          "type": "bitmap"
+        }
+
+      ]
+    }
+  }
+}
