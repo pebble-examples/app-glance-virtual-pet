@@ -6,7 +6,7 @@ launcher.
 
 ## Guide
 
-This example is part of the [AppGlances C API Guide](https://developer.pebble.com/user-interfaces/appglances-c)
+This example is part of the [AppGlances C API Guide](https://developer.pebble.com/guides/user-interfaces/appglance-c)
 on the Pebble Developer Site.
 
 ## License
