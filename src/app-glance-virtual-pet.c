@@ -50,8 +50,8 @@ static void prv_update_app_glance_egg(AppGlanceReloadSession *session, size_t li
   // Create the slice
   const AppGlanceSlice slice = (AppGlanceSlice) {
     .layout = {
-      .icon_resource_id = RESOURCE_ID_ICON_EGG,
-      .template_string = "Open app to hatch egg"
+      .icon = RESOURCE_ID_ICON_EGG,
+      .subtitle_template_string = "Open app to hatch egg"
     },
     // TODO: Update to APP_GLANCE_SLICE_NO_EXPIRATION in sdk4-dp2
     .expiration_time = time(NULL) + 31557600
@@ -81,8 +81,8 @@ static void prv_update_app_glance_pet(AppGlanceReloadSession *session, size_t li
 
     const AppGlanceSlice slice = {
       .layout = {
-        .icon_resource_id = icons[i],
-        .template_string = messages[i]
+        .icon = icons[i],
+        .subtitle_template_string = messages[i]
       },
       // TODO: Update `time(NULL) + 31557600` to APP_GLANCE_SLICE_NO_EXPIRATION in sdk4-dp2
       .expiration_time = i == (NUM_STATES - 1) ? time(NULL) + 31557600 : expiration_time
