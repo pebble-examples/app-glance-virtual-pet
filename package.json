@@ -31,80 +31,71 @@
           "file": "images/frog.png",
           "name": "FROG",
           "storageFormat": "png",
-          "targetPlatforms": [
-            "basalt",
-            "chalk",
-            "diorite"
-          ],
           "type": "bitmap"
         },
         {
           "file": "images/egg.png",
           "name": "EGG",
           "storageFormat": "png",
-          "targetPlatforms": [
-            "basalt",
-            "chalk",
-            "diorite"
-          ],
           "type": "bitmap"
         },
         {
           "file": "images/frog_icon_happy.png",
           "name": "ICON_FROG_HAPPY",
           "storageFormat": "png",
-          "targetPlatforms": [
-            "basalt",
-            "chalk",
-            "diorite"
-          ],
           "type": "bitmap"
         },
         {
           "file": "images/frog_icon_hungry.png",
           "name": "ICON_FROG_HUNGRY",
           "storageFormat": "png",
-          "targetPlatforms": [
-            "basalt",
-            "chalk",
-            "diorite"
-          ],
           "type": "bitmap"
         },
         {
           "file": "images/frog_icon_very_hungry.png",
           "name": "ICON_FROG_VERY_HUNGRY",
           "storageFormat": "png",
-          "targetPlatforms": [
-            "basalt",
-            "chalk",
-            "diorite"
-          ],
           "type": "bitmap"
         },
         {
           "file": "images/frog_icon_missing.png",
           "name": "ICON_FROG_MISSING",
           "storageFormat": "png",
-          "targetPlatforms": [
-            "basalt",
-            "chalk",
-            "diorite"
-          ],
           "type": "bitmap"
         },
         {
           "file": "images/egg_icon.png",
           "name": "ICON_EGG",
           "storageFormat": "png",
-          "targetPlatforms": [
-            "basalt",
-            "chalk",
-            "diorite"
-          ],
           "type": "bitmap"
         }
-
+      ],
+      "publishedMedia": [
+        {
+          "name": "ICON_EGG",
+          "id": 1,
+          "glance": "ICON_EGG"
+        },
+        {
+          "name": "ICON_FROG_HAPPY",
+          "id": 2,
+          "glance": "ICON_FROG_HAPPY"
+        },
+        {
+          "name": "ICON_FROG_HUNGRY",
+          "id": 3,
+          "glance": "ICON_FROG_HUNGRY"
+        },
+        {
+          "name": "ICON_FROG_VERY_HUNGRY",
+          "id": 4,
+          "glance": "ICON_FROG_VERY_HUNGRY"
+        },
+        {
+          "name": "ICON_FROG_MISSING",
+          "id": 5,
+          "glance": "ICON_FROG_MISSING"
+        }
       ]
     }
   }

@@ -50,7 +50,7 @@ static void prv_update_app_glance_egg(AppGlanceReloadSession *session, size_t li
   // Create the slice
   const AppGlanceSlice slice = (AppGlanceSlice) {
     .layout = {
-      .icon = RESOURCE_ID_ICON_EGG,
+      .icon = PUBLISHED_ID_ICON_EGG,
       .subtitle_template_string = "Open app to hatch egg"
     },
     // TODO: Update to APP_GLANCE_SLICE_NO_EXPIRATION in sdk4-dp2
